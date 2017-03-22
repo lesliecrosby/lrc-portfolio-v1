@@ -1,0 +1,52 @@
+.owl-item {
+  height: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.owl-item > div {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+#content-1 {
+  background-image: url(../assets/img/owl_practice_img/blog-wreath.jpg);
+}
+
+#content-2 {
+  background-image: url(../assets/img/owl_practice_img/boughs.jpg);
+}
+
+#content-3 {
+  background-image: url(../assets/img/owl_practice_img/bulb-bouquet.jpeg);
+}
+
+#content-4 {
+  background-image: url(../assets/img/owl_practice_img/cutting-boards.jpg);
+}
+
+#content-5 {
+  background-image: url(../assets/img/owl_practice_img/Crewcuts.jpg);
+}
+
+#content-6 {
+  background-image: url(../assets/img/owl_practice_img/IngeTree.jpg);
+}
+
+#content-7 {
+  background-image: url(../assets/img/owl_practice_img/wall-tree.jpg);
+}
+
+.owl-theme .owl-controls .owl-page span {
+  background: #8b0000;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 4px;
+  margin: 80px 0 50px;
+}
