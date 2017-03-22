@@ -154,6 +154,9 @@ section {
   height: 40px;
   background-color: #46a79d;
   border-radius: 50%;
+  -moz-transition: 800ms;
+  -o-transition: 800ms;
+  -webkit-transition: 800ms;
   transition: 800ms;
 }
 
@@ -225,6 +228,9 @@ section {
   height: 90px;
   width: 90px;
   border-radius: 50%;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   padding-top: 20px;
 }
@@ -261,6 +267,9 @@ section {
   padding: 10px 25px;
   font-size: 11px;
   letter-spacing: 2px;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   text-decoration: none;
   color: #fff;
@@ -280,6 +289,9 @@ section {
   right: 0;
   bottom: 0;
   opacity: 1;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  -webkit-transition: 500ms;
   transition: 500ms;
 }
 
@@ -300,6 +312,9 @@ section {
   right: 0;
   bottom: 0;
   opacity: 0;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  -webkit-transition: 500ms;
   transition: 500ms;
   display: flex;
   justify-content: center;
@@ -436,6 +451,9 @@ section {
 
 .job a:hover {
   color: #46a79d;
+  -moz-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  -webkit-transition: all 0.25s;
   transition: all 0.25s;
 }
 
@@ -584,6 +602,9 @@ section {
   margin-right: 7px;
   line-height: 30px;
   color: #fff;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
