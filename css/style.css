@@ -289,6 +289,10 @@ section {
   line-height: 1.5;
 }
 
+.img-overlay h6 {
+  text-align: center;
+}
+
 .txt-overlay {
   position: absolute;
   top: 30px;
@@ -425,6 +429,16 @@ section {
   box-shadow: 5px 5px 12px rgba(204, 204, 204, 0.5);
 }
 
+.job a {
+  color: #444e5e;
+  font-weight: bold;
+}
+
+.job a:hover {
+  color: #46a79d;
+  transition: all 0.25s;
+}
+
 .experience figure {
   background-color: #b8beab;
   padding: 40px;
@@ -469,20 +483,20 @@ section {
   text-decoration: none;
 }
 
-.tldr .hide-normally {
+/*.tldr .hide-normally {
   display: none;
   transition: ease 500ms;
-}
+}*/
 
 .tldr:hover .hide-on-hover {
-  display: none;
+  color: #46a79d;
   transition: ease 500ms;
 }
 
-.tldr:hover .hide-normally {
+/*.tldr:hover .hide-normally {
   display: inherit;
   transition: ease 500ms;
-}
+}*/
 
 @media screen and (max-width: 1199px) {
   .aside-content {
