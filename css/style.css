@@ -21,6 +21,30 @@ section {
   padding-top: 40px;
 }
 
+.extra-space {
+  height: 40px;
+}
+
+.brag {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(184, 190, 171, 0.5);
+  z-index: 25000;
+  /*box-shadow: 5px 5px 12px rgba(204, 204, 204, 0.3);*/
+}
+
+.brag h6 {
+  margin-top: 12px;
+  margin-left: 2px;
+  font-size: 7px;
+  line-height: 9px;
+  letter-spacing: 1.5px;
+}
+
 /*  N A V I G A T I O N  */
 
 .navbar {
@@ -272,13 +296,14 @@ section {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   text-decoration: none;
-  color: #fff;
-  background-color: #a7cec7;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(167, 206, 199, 0.8);
   line-height: 56px;
 }
 
 .project-type a.active, .project-type a:hover {
-  background-color: #46a79d;
+  background-color: rgba(70, 167, 157, 1);
+  color: #fff;
 }
 
 .img-overlay {
@@ -328,7 +353,7 @@ section {
 }
 
 .txt-overlay h5 {
-  padding-top: 40%;
+  padding-top: 50%;
   color: #fff;
   font-size: 13px;
   text-transform: uppercase;
@@ -339,7 +364,7 @@ section {
 }
 
 .project-item:hover .img-overlay {
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 .project-item:hover .txt-overlay {
@@ -387,6 +412,23 @@ section {
 .portfolio-modal img {
   max-width: 100%;
   margin-bottom: 30px;
+}
+
+.portfolio-modal img.drop-shadow {
+  box-shadow: 5px 5px 12px rgba(204, 204, 204, 0.2);
+  margin-bottom: 15px;
+}
+
+.portfolio-modal figure {
+  margin-bottom: 120px;
+}
+
+.portfolio-modal figcaption {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #959985;
+  margin-top: 10px;
 }
 
 .portfolio-modal .close-modal {
@@ -497,7 +539,9 @@ section {
   padding: 20px;
 }
 
-.tldr a {
+.aside a h4 {
+  font-size: 14px;
+  letter-spacing: 3px;
   text-decoration: none;
 }
 
